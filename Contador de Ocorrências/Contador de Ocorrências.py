@@ -1,8 +1,8 @@
 
 arquivoPath = input("Caminho do arquivo no seu computador: ") #Busca o arquivo no seu PC
 try:
-    with open(arquivoPath) as arquivoFinal: #Nomeia o path do arquivo de "arquivoFinal"
-        conteudo = arquivoFinal.read() #Atribui a leitura do arquivo a "conteudo"
+    arquivoFinal = open(arquivoPath) #Nomeia o path do arquivo de "arquivoFinal"
+    conteudo = arquivoFinal.read() #Atribui a leitura do arquivo a "conteudo"
         
     
 except:
